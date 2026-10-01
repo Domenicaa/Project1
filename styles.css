@@ -1,3 +1,21 @@
 body {
-    background-image: url('background1.svg');
+    background-image: url('images/amazon1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
+.tree {
+    position: absolute;
+    width: 82%;
+    left: 10%;
+    top: 23%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.tree:hover {
+    transform: scale(1.1);
+    /* transition: transform 0.2s ease-in-out; */
+}
+

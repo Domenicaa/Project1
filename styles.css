@@ -35,6 +35,7 @@ body {
     cursor: pointer;
 }
 
+/* Second index page */
 .circle {
     width: 800px;
     height: 500px;
@@ -57,17 +58,121 @@ body {
 .continue{
     margin-top: 25px;
     font-size: 38px;
-    color: #321900;
-    font-family: 'Merienda', cursive;
+    color: #fbf9f8;
+    font-family: 'Allerta Stencil', sans-serif;
     text-decoration: none;
-    color: #F7F4D5;
     cursor: pointer;
 }
 
 .continue:hover {
     transform: scale(1.1);
     color: #430724;
-    background-color: rgb(247, 244, 213, 0.5);
-    border-radius: 10px;
-    padding: 5px;
+}
+
+/* third index page */
+
+.thirdPage {
+    background-image: none;
+    background-color: #fef6e5;
+    min-height: 100vh;
+}
+
+.hover-image img {
+     width: 600px;
+    height: auto;
+    display: block;
+}
+
+.hover-image {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hover-image img {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 450px;
+    background-color: #839958;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #F7F4D5;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-image:hover .hover-text {
+    opacity: 1;
+}
+
+.continue2{
+    margin-top: 25px;
+    font-size: 40px;
+    color: #740c0c;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.continue2:hover {
+    transform: scale(1.1);
+}
+
+/* fourth index page */
+
+.fourthPage {
+    background-image: url('images/amazon1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.circle2 {
+    width: 800px;
+    height: 500px;
+    background-color: #839958;
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.circle2 p{
+    font-family: 'Cascadia Code', monospace;
+    font-size: 30px;
+    color: #F7F4D5;
+    text-align: center;
+    line-height: 1.5;
+    margin: 60px;
+}
+
+.home{
+    margin-top: 25px;
+    font-size: 40px;
+    color: #fbf9f8;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home:hover {
+    transform: scale(1.1);
+
 }

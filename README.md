@@ -3,33 +3,39 @@
 
 ## Live Demo
 
-- Include a link to the live version of the project hosted on GitHub Pages.
+- https://domenicaa.github.io/Project1/
 
 ## Project Overview
 
-- Briefly describe the purpose of the project.
-- Explain the story you are telling through the webpage and the key interactive elements.
+- The theme I chose is a real story that happened to my grandfather when he was 17 years old. I chose this story because when he used to tell it to my cousins and me, I always liked to imagine the jungle and the Indigenous people he met.
+- I would have liked to include my grandfather’s complete story because he stayed with the Indigenous community for three days and learned a lot from them, like their diet and the way they hunted. I would also like to add more interactive elements using JavaScript.
 
 ## Features
 
 - List the key features of the project, including:
-    - **Animations**: Describe the animations you implemented (e.g., CSS transitions, GSAP effects).
-    - **Sound Effects**: Specify where sound effects are used and how they enhance the user experience.
-    - **User-triggered Events**: Explain how users interact with the page (e.g., clicking, scrolling, hovering) and how the page responds.
-    - **Responsive Design**: Explain how the design adapts to different devices (e.g., desktop, tablet, mobile).
+    - **Animations**: I used CSS transitions and hover effects. some images get bigger when the user hovers over them and some text appers when users hover over an image.
+    - **Sound Effects**: I adde background music to make the story more immersive. However, the user has to click the music button to play the music.
+    - **User-triggered Events**: The user has to interact with the page to continue the story by clicking images and buttons.
+    - **Responsive Design**: I used flex to organize and center the elements on the page. I also used height: auto on the images to keep the proprtions when the screen size chnages.
 
 ## Technologies Used
 
 - List the technologies and tools used in the project:
     - **Languages**: HTML, CSS, JavaScript
-    - **Libraries**: (e.g., GSAP for animations)
-    - **Other**: GitHub Pages for hosting, Figma for design
+    - **Libraries**: none
+    - **Other**: GitHub Pages for hosting, Google Slides for design.
 
 ## Credits
 
-- List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
+Backgorund music:
+Free Nature Sounds - Nature Sounds Forest Birds (Free To Use Vlog Sound Effects)
+https://www.youtube.com/watch?v=4CmzL-cv-MI&t=107s
+
+Tutorials:
+
+JavaScript Course for Beginners – Your First Step to Web Development
+https://www.youtube.com/watch?v=W6NZfCO5SIk&t=1607s
+
+
 
 ## Future Enhancements
-
-- List any features you would’ve liked to add if given more time

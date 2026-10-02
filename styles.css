@@ -4,6 +4,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .tree {
@@ -16,6 +21,53 @@ body {
 }
 .tree:hover {
     transform: scale(1.1);
-    /* transition: transform 0.2s ease-in-out; */
 }
 
+#musicButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #BDDA6F;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle {
+    width: 800px;
+    height: 500px;
+    background-color: #839958;
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.circle p{
+    font-family: 'Cascadia Code', monospace;
+    font-size: 30px;
+    color: #F7F4D5;
+    text-align: center;
+    line-height: 1.5;
+    margin: 60px;
+}
+
+.continue{
+    margin-top: 25px;
+    font-size: 38px;
+    color: #321900;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    color: #F7F4D5;
+    cursor: pointer;
+}
+
+.continue:hover {
+    transform: scale(1.1);
+    color: #430724;
+    background-color: rgb(247, 244, 213, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
